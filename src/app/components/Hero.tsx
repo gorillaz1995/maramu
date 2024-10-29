@@ -1,25 +1,10 @@
-"use client";
-
-import { useEffect, useRef } from "react";
 import Image from "next/image";
 
 export default function Hero() {
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    // Preload video when component mounts
-    if (videoRef.current) {
-      videoRef.current.play().catch((error) => {
-        console.log("Video autoplay failed:", error);
-      });
-    }
-  }, []);
-
   return (
     <section className="relative w-full h-screen overflow-hidden">
       {/* Video Background */}
       <video
-        ref={videoRef}
         autoPlay
         muted
         loop
