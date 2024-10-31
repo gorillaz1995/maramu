@@ -1,19 +1,61 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
 export default function Hero() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Handle initial check and window resize
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth < 1000);
+    };
+
+    // Check on mount
+    checkScreenSize();
+
+    // Add resize listener
+    window.addEventListener("resize", checkScreenSize);
+
+    // Cleanup
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
+
+  useEffect(() => {
+    // Preload video when component mounts and is mobile
+    if (videoRef.current && isMobile) {
+      videoRef.current.play().catch((error) => {
+        console.log("Video autoplay failed:", error);
+      });
+    }
+  }, [isMobile]);
+
   return (
     <section className="relative w-full h-screen overflow-hidden">
-      {/* Video Background */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover"
-        preload="auto"
-      >
-        <source src="/mock2.mp4" type="video/mp4" />
-      </video>
+      {/* Background Media */}
+      {isMobile ? (
+        <video
+          ref={videoRef}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover"
+          preload="auto"
+        >
+          <source src="/mock2.mp4" type="video/mp4" />
+        </video>
+      ) : (
+        <Image
+          src="/hero2.webp"
+          alt="Hero Background"
+          fill
+          className="object-cover"
+          priority
+        />
+      )}
 
       {/* Overlay with gradient for better contrast */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/55 to-black/0" />
