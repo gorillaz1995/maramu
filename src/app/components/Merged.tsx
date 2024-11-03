@@ -34,8 +34,8 @@ export default function Merged() {
     });
 
     // Initial states
-    gsap.set(seasons, { yPercent: 100 });
-    gsap.set(food, { yPercent: 100 });
+    gsap.set(seasons, { yPercent: 100, rotationX: 30, opacity: 0 });
+    gsap.set(food, { yPercent: 100, scale: 0.8, opacity: 0 });
 
     // Animation sequence
     tl.to(
@@ -44,7 +44,7 @@ export default function Merged() {
         opacity: 0,
         duration: 0.5,
         className: "bg-[#013220]",
-        ease: "none",
+        ease: "sine.in",
       },
       0
     )
@@ -52,8 +52,10 @@ export default function Merged() {
         seasons,
         {
           yPercent: 0,
+          rotationX: 0,
+          opacity: 1,
           duration: 1,
-          ease: "none",
+          ease: "power2.out",
         },
         0
       )
@@ -61,9 +63,10 @@ export default function Merged() {
         seasons,
         {
           opacity: 0,
-          duration: 0.5,
+          scale: 1.1,
+          duration: 0.4,
           className: "bg-[#013220]",
-          ease: "none",
+          ease: "power2.in",
         },
         1
       )
@@ -71,8 +74,10 @@ export default function Merged() {
         food,
         {
           yPercent: 0,
+          scale: 1,
+          opacity: 1,
           duration: 1,
-          ease: "none",
+          ease: "back.out(1.4)",
         },
         1
       );
