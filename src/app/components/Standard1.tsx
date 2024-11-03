@@ -80,10 +80,10 @@ export default function Standard1({
   return (
     <section
       ref={sectionRef}
-      className="w-full min-h-screen flex items-center py-8 px-4 md:px-8 lg:px-16 overflow-hidden"
+      className="w-full min-h-screen flex items-center justify-center py-20 px-4 md:px-8 lg:px-16 overflow-hidden"
       style={{ backgroundColor: bgColor }}
     >
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-8">
+      <div className="max-w-7xl w-full flex flex-col lg:flex-row items-center justify-center gap-8">
         {/* Image Container */}
         <div
           className="w-full lg:w-1/2 relative rounded-2xl overflow-hidden shadow-lg"
@@ -125,7 +125,7 @@ export default function Standard1({
         </div>
 
         {/* Text Content */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left">
+        <div className="w-full lg:w-1/2 text-center">
           <h2
             className="text-4xl md:text-5xl font-cinzel mb-6"
             style={{ color: titleColor }}

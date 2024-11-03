@@ -9,11 +9,11 @@ export default function Seasons() {
 
   const images = [
     {
-      src: "/iarna.webp",
+      src: "/iar1.webp",
       alt: "Iarna la Duparaz",
     },
     {
-      src: "/vara.webp",
+      src: "/var1.webp",
       alt: "Vara la Duparaz",
     },
   ];
@@ -53,7 +53,7 @@ export default function Seasons() {
           {images.map((image, index) => (
             <div
               key={image.src}
-              className="absolute inset-0 transition-opacity duration-1000"
+              className="absolute inset-0 transition-opacity duration-2200"
               style={{ opacity: currentImage === index ? 1 : 0 }}
             >
               <Image
@@ -68,7 +68,7 @@ export default function Seasons() {
           ))}
         </div>
 
-        <div className="w-full lg:w-1/2 text-center lg:text-left">
+        <div className="w-full lg:w-1/2 text-center lg:text-left pt-10">
           <h2
             className="text-4xl md:text-4xl lg:text-4xl font-cinzel mb-6"
             style={{ color: "#F7D917" }}
@@ -76,7 +76,7 @@ export default function Seasons() {
             Refugiul tău în orice anotimp
           </h2>
           <p
-            className="text-md md:text-lg lg:text-lg font-fauna-one leading-relaxed"
+            className="text-lg md:text-lg lg:text-lg font-fauna-one leading-relaxed"
             style={{
               color: "#D4AF37",
               textShadow: "0 0 3px #F7D91733",
@@ -84,9 +84,7 @@ export default function Seasons() {
           >
             Timpul trece, dar frumusetea este vesnic prezenta aici. Verdele crud
             al primaverii sau albul pur al iernii te va fermeca indiferent de
-            anotimp.<br></br>Te invitam la o sedinta foto in straie traditionale
-            din Maramures; fie ca esti baiat sau fata, mic sau mare avem toate
-            marimile!
+            anotimp.
           </p>
         </div>
       </div>

@@ -10,8 +10,12 @@ const Footer = () => {
     setTimeout(() => setShowToast(false), 3000);
   };
 
+  const handleEmailClick = () => {
+    window.location.href = "mailto:contact@dupaapalarazvan.ro";
+  };
+
   return (
-    <footer className="bg-[#013220] text-[#F7D917] font-cinzel min-h-[37vh] relative overflow-hidden">
+    <footer className="bg-[#F7D917] text-[#013220] font-cinzel min-h-[37vh] relative overflow-hidden">
       <div className="container mx-auto h-full py-6 px-4 relative">
         {/* Desktop Layout */}
         <div className="hidden lg:grid lg:grid-cols-3 gap-6 h-full">
@@ -33,7 +37,12 @@ const Footer = () => {
           {/* Second Column */}
           <div className="flex justify-center items-center relative">
             <div className="flex flex-col items-center gap-4">
-              <p className="text-3xl text-center">contact@dupaapalarazvan.ro</p>
+              <button
+                onClick={handleEmailClick}
+                className="text-3xl text-center hover:underline cursor-pointer"
+              >
+                contact@dupaapalarazvan.ro
+              </button>
               <p className="text-3xl text-center">
                 Strada Lazu Baciului nr. 167, Sighetu Marmației 435502
               </p>
@@ -58,7 +67,12 @@ const Footer = () => {
           >
             CONTACTEAZĂ-NE
           </button>
-          <p className="text-2xl">contact@dupaapalarazvan.ro</p>
+          <button
+            onClick={handleEmailClick}
+            className="text-2xl hover:underline cursor-pointer"
+          >
+            contact@dupaapalarazvan.ro
+          </button>
           <p className="text-lg text-center">
             Strada Lazu Baciului nr. 167, Sighetu Marmației 435502
           </p>

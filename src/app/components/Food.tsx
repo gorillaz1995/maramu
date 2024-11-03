@@ -106,7 +106,7 @@ export default function Food({
           ))}
         </div>
 
-        <div className="w-full lg:w-1/2 text-center lg:text-left">
+        <div className="w-full lg:w-1/2 text-center lg:text-left pt-5">
           <h2
             className="text-4xl md:text-4xl lg:text-4xl font-cinzel mb-6"
             style={{ color: textColor }}
@@ -114,7 +114,7 @@ export default function Food({
             {heading}
           </h2>
           <p
-            className="text-md md:text-lg lg:text-lg font-fauna-one leading-relaxed"
+            className="text-lg md:text-lg lg:text-lg font-fauna-one leading-relaxed"
             style={{
               color: accentColor,
             }}

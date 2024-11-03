@@ -17,8 +17,8 @@ export default function HailMary() {
   // Transform values for sections
   const seasonsY = useTransform(
     scrollYProgress,
-    [0, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.5],
-    ["100vh", "75vh", "50vh", "35vh", "25vh", "15vh", "10vh", "0vh"]
+    [0, 0.15, 0.25, 0.35, 0.4, 0.5],
+    ["100vh", "75vh", "50vh", "25vh", "10vh", "0vh"]
   );
   const seasonsOpacity = useTransform(scrollYProgress, [0, 0.3], [1, 1]);
 

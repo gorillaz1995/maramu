@@ -37,9 +37,12 @@ export default function Baut() {
           trigger: sectionRef.current,
           start: "top center",
           end: "bottom center",
-          toggleActions: "play pause resume reset",
+          scrub: false,
+          onEnter: () => tl.restart(),
+          onEnterBack: () => tl.restart(),
+          onLeave: () => tl.pause(),
+          onLeaveBack: () => tl.pause(),
         },
-        repeat: -1,
       });
 
       tl.to(sticla1Ref.current, {
@@ -91,7 +94,7 @@ export default function Baut() {
   return (
     <section
       ref={sectionRef}
-      className="w-full h-screen flex items-center pb-10 px-4 md:px-8 lg:px-16 bg-[#E6BE8A] overflow-hidden"
+      className="w-full h-screen flex items-center pb-10 px-4 md:px-8 lg:px-16 bg-[#F7D917] overflow-hidden"
     >
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         <div className="w-full lg:w-1/2 relative flex justify-center items-center">
