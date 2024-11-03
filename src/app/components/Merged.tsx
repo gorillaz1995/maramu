@@ -34,26 +34,24 @@ export default function Merged() {
     });
 
     // Initial states
-    gsap.set(seasons, { yPercent: 100, scale: 0.95, filter: "blur(5px)" });
-    gsap.set(food, { yPercent: 100, scale: 0.95, filter: "blur(5px)" });
+    gsap.set(seasons, { yPercent: 100 });
+    gsap.set(food, { yPercent: 100 });
 
-    // Animation sequence with enhanced transitions
+    // Animation sequence
     tl.to(
       hero,
       {
         opacity: 0,
-        scale: 1.05,
-        filter: "blur(5px)",
         duration: 0.5,
         className: "bg-[#013220]",
-        ease: "power2.inOut",
+        ease: "none",
       },
       0
     )
       .to(
-        hero,
+        seasons,
         {
-          yPercent: -20,
+          yPercent: 0,
           duration: 1,
           ease: "none",
         },
@@ -62,41 +60,17 @@ export default function Merged() {
       .to(
         seasons,
         {
-          yPercent: 0,
-          scale: 1,
-          filter: "blur(0px)",
-          duration: 1,
-          ease: "power2.inOut",
+          opacity: 0,
+          duration: 0.5,
+          className: "bg-[#013220]",
+          ease: "none",
         },
-        0
+        1
       )
       .to(
         food,
         {
           yPercent: 0,
-          scale: 1,
-          filter: "blur(0px)",
-          duration: 1,
-          ease: "power2.inOut",
-        },
-        1
-      )
-      .to(
-        seasons,
-        {
-          opacity: 0,
-          scale: 1.05,
-          filter: "blur(5px)",
-          duration: 0.5,
-          className: "bg-[#013220]",
-          ease: "power2.inOut",
-        },
-        1
-      )
-      .to(
-        seasons,
-        {
-          yPercent: -20,
           duration: 1,
           ease: "none",
         },
@@ -111,20 +85,17 @@ export default function Merged() {
   return (
     <div
       ref={containerRef}
-      className="relative w-full h-screen overflow-hidden bg-[#013220] perspective-1000"
+      className="relative w-full h-screen overflow-hidden bg-[#013220]"
     >
-      <div ref={heroRef} className="absolute inset-0 z-[1] transform-style-3d">
+      <div ref={heroRef} className="absolute inset-0 z-[1]">
         <Hero />
       </div>
 
-      <div
-        ref={seasonsRef}
-        className="absolute inset-0 z-[2] transform-style-3d"
-      >
+      <div ref={seasonsRef} className="absolute inset-0 z-[2]">
         <Seasons />
       </div>
 
-      <div ref={foodRef} className="absolute inset-0 z-[3] transform-style-3d">
+      <div ref={foodRef} className="absolute inset-0 z-[3]">
         <Food />
       </div>
     </div>
