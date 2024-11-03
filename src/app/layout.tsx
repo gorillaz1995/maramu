@@ -1,37 +1,46 @@
-import type { Metadata } from "next";
-import { Cinzel, Fauna_One } from "next/font/google";
+"use client";
+
 import "./globals.css";
+import { Rufina, Oxygen } from "next/font/google";
+import dynamic from "next/dynamic";
+import { usePathname } from "next/navigation";
+import Footer from "./components/Footer";
 
-const cinzel = Cinzel({
+const DynamicMenux = dynamic(() => import("./components/Menu"), { ssr: false });
+
+const rufina = Rufina({
+  weight: ["400", "700"],
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-cinzel",
+  variable: "--font-rufina",
 });
 
-const faunaOne = Fauna_One({
-  weight: "400",
+const oxygen = Oxygen({
   subsets: ["latin"],
+  weight: ["300", "400", "700"],
   display: "swap",
-  variable: "--font-fauna-one",
+  variable: "--font-oxygen",
 });
-
-export const metadata: Metadata = {
-  title: "Dupa Apa la Razvan",
-  description: "Pensiune Sighetu Marmației, Maramures",
-};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
+  const pathname = usePathname();
+  const isServicesPage = pathname === "/services";
+
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`antialiased ${cinzel.variable} ${faunaOne.variable}`}
-        suppressHydrationWarning={true}
+        className={`antialiased ${rufina.variable} ${
+          oxygen.variable
+        } font-sans relative ${isServicesPage ? "overflow-x-auto" : ""}`}
+        suppressHydrationWarning
       >
-        {children}
+        <DynamicMenux />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

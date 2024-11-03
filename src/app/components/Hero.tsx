@@ -33,7 +33,7 @@ export default function Hero() {
   }, [isMobile]);
 
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className="relative w-full h-screen overflow-hidden ">
       {/* Background Media */}
       {isMobile ? (
         <video

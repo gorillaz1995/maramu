@@ -3,7 +3,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 interface Standard1Props {
   title: string;
@@ -24,14 +24,24 @@ export default function Standard1({
 }: Standard1Props) {
   const [currentImage, setCurrentImage] = useState(0);
   const [imageHeight, setImageHeight] = useState("auto");
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 3000);
+    let interval: NodeJS.Timeout;
 
-    return () => clearInterval(interval);
-  }, [images.length]);
+    if (isVisible) {
+      interval = setInterval(() => {
+        setCurrentImage((prev) => (prev + 1) % images.length);
+      }, 3000);
+    }
+
+    return () => {
+      if (interval) {
+        clearInterval(interval);
+      }
+    };
+  }, [images.length, isVisible]);
 
   useEffect(() => {
     const handleResize = () => {
@@ -45,8 +55,31 @@ export default function Standard1({
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      {
+        threshold: 0.1,
+      }
+    );
+
+    const currentRef = sectionRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
+    }
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  }, []);
+
   return (
     <section
+      ref={sectionRef}
       className="w-full min-h-screen flex items-center py-8 px-4 md:px-8 lg:px-16 overflow-hidden"
       style={{ backgroundColor: bgColor }}
     >
@@ -55,7 +88,7 @@ export default function Standard1({
         <div
           className="w-full lg:w-1/2 relative rounded-2xl overflow-hidden shadow-lg"
           style={{
-            animation: "float 6s ease-in-out infinite",
+            animation: isVisible ? "float 6s ease-in-out infinite" : "none",
             height: imageHeight,
           }}
         >
