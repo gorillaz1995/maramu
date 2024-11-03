@@ -13,7 +13,9 @@ const Footer = () => {
   return (
     <footer className="bg-[#013220] text-[#F7D917] font-cinzel min-h-[37vh] relative overflow-hidden transition-colors duration-300 hover:bg-[#012218]">
       <div className="container mx-auto h-full py-6 px-4 relative">
+        {/* Desktop Layout */}
         <div className="hidden lg:grid lg:grid-cols-3 gap-6 h-full">
+          {/* First Column */}
           <div className="flex justify-center items-center relative">
             <div className="flex flex-col items-center gap-4">
               <h2 className="font-bold text-5xl text-center">
@@ -28,6 +30,7 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* Second Column */}
           <div className="flex justify-center items-center relative">
             <div className="flex flex-col items-center gap-4">
               <p className="text-3xl text-center">contact@dupaapalarazvan.ro</p>
@@ -37,6 +40,7 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* Third Column */}
           <div className="flex justify-center items-center relative">
             <div className="flex flex-col items-center gap-4">
               <p className="text-2xl text-center">© 2024 După Apă la Răzvan</p>
@@ -45,6 +49,7 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Mobile Layout */}
         <div className="lg:hidden flex flex-col items-center gap-6 relative">
           <h2 className="font-bold text-2xl">Vrei să ne vizitezi?</h2>
           <button
@@ -62,6 +67,7 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* Toast Notification */}
       {showToast && (
         <div
           className="absolute left-1/2 -translate-x-1/2 bg-black text-[#F7D917] rounded-md p-3 z-[1000] font-cinzel animate-slideDown"
