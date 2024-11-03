@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#013220] text-[#F7D917] font-cinzel min-h-[37vh] relative overflow-hidden transition-colors duration-300 hover:bg-[#012218]">
+    <footer className="bg-[#013220] text-[#F7D917] font-cinzel min-h-[37vh] relative overflow-hidden">
       <div className="container mx-auto h-full py-6 px-4 relative">
         {/* Desktop Layout */}
         <div className="hidden lg:grid lg:grid-cols-3 gap-6 h-full">
@@ -23,7 +23,7 @@ const Footer = () => {
               </h2>
               <button
                 onClick={handleCopyNumber}
-                className="bg-black text-[#F7D917] text-4xl px-8 py-4 relative overflow-hidden font-cinzel hover:bg-gray-800 hover:-translate-y-0.5 hover:shadow-[0_0_15px_5px_rgba(247,217,23,0.5)] transition-all duration-300 shadow-[0_0_10px_2px_rgba(247,217,23,0.3)]"
+                className="bg-black text-[#F7D917] text-4xl px-8 py-4 relative overflow-hidden font-cinzel hover:bg-gray-800"
               >
                 CONTACTEAZĂ-NE
               </button>
@@ -54,7 +54,7 @@ const Footer = () => {
           <h2 className="font-bold text-2xl">Vrei să ne vizitezi?</h2>
           <button
             onClick={handleCopyNumber}
-            className="bg-black text-[#F7D917] text-2xl px-6 py-3 relative overflow-hidden font-cinzel hover:bg-gray-800 hover:-translate-y-0.5 hover:shadow-[0_0_15px_5px_rgba(247,217,23,0.5)] transition-all duration-300 shadow-[0_0_10px_2px_rgba(247,217,23,0.3)]"
+            className="bg-black text-[#F7D917] text-2xl px-6 py-3 relative overflow-hidden font-cinzel hover:bg-gray-800"
           >
             CONTACTEAZĂ-NE
           </button>
@@ -70,7 +70,7 @@ const Footer = () => {
       {/* Toast Notification */}
       {showToast && (
         <div
-          className="absolute left-1/2 -translate-x-1/2 bg-black text-[#F7D917] rounded-md p-3 z-[1000] font-cinzel animate-slideDown"
+          className="absolute left-1/2 -translate-x-1/2 bg-black text-[#F7D917] rounded-md p-3 z-[1000] font-cinzel"
           style={{ top: "20px" }}
         >
           Ai copiat numărul nostru. Dă-ne un telefon!
