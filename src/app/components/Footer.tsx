@@ -15,7 +15,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#F7D917] text-[#013220] font-cinzel min-h-[37vh] relative overflow-hidden">
+    <footer className="bg-[#D4AF37] text-[#013220] font-cinzel min-h-[37vh] relative overflow-hidden">
       <div className="container mx-auto h-full py-6 px-4 relative">
         {/* Desktop Layout */}
         <div className="hidden lg:grid lg:grid-cols-3 gap-6 h-full">

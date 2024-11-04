@@ -40,9 +40,9 @@ export default function Food({
   heading = "Descoperă gusturile autentice ale Maramureșului",
   paragraph = "Bucura-te de preparate traditionale pregatite cu grija, folosind ingrediente proaspete din inima muntilor. Carnea de cea mai buna calitate, crescuta natural, si legumele alese transforma fiecare masa.",
   isAlternating = false,
-  backgroundColor = "#D4AF37",
-  textColor = "#013220",
-  accentColor = "#013220",
+  backgroundColor = "#013220",
+  textColor = "#D4AF37",
+  accentColor = "#D4AF37",
 }: StandardProps) {
   const [currentImage, setCurrentImage] = useState(0);
   const [imageHeight, setImageHeight] = useState("auto");

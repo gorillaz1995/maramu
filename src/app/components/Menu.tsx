@@ -83,9 +83,9 @@ const Menux: React.FC = () => {
           <div className="absolute top-14 right-0 w-[220px] p-2 rounded-[15px] bg-gradient-to-br from-[#F7D917] to-[#e6c915] shadow-lg">
             <nav className="flex flex-col gap-2">
               {[
-                { path: "/", label: "Home" },
+                { path: "/", label: "Acasa" },
                 { path: "/camere", label: "Camere" },
-                { path: "/despre-noi", label: "Despre noi" },
+
                 { path: "/activitati", label: "Activitati" },
               ].map((item) => (
                 <button
