@@ -73,7 +73,7 @@ export default function Seasons() {
             className="text-4xl md:text-4xl lg:text-4xl font-cinzel mb-6"
             style={{ color: "#F7D917" }}
           >
-            Refugiul tău în orice anotimp
+            Refugiul tau în orice anotimp
           </h2>
           <p
             className="text-lg md:text-lg lg:text-lg font-fauna-one leading-relaxed"

@@ -37,7 +37,7 @@ export default function Food({
       alt: "Specialități locale",
     },
   ],
-  heading = "Descoperă gusturile autentice ale Maramureșului",
+  heading = "Descopera gusturile autentice ale Maramuresului",
   paragraph = "Bucura-te de preparate traditionale pregatite cu grija, folosind ingrediente proaspete din inima muntilor. Carnea de cea mai buna calitate, crescuta natural, si legumele alese transforma fiecare masa.",
   isAlternating = false,
   backgroundColor = "#013220",

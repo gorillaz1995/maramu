@@ -93,7 +93,8 @@ const CaruselC: React.FC = () => {
                 sizes="(max-width: 768px) 100vw, (min-width: 769px) and (max-width: 1200px) 50vw, 33vw"
                 className="object-cover rounded-lg"
                 quality={100}
-                priority={index < 3}
+                priority={index === 0}
+                loading={index === 0 ? "eager" : "lazy"}
               />
             </div>
           ))}

@@ -16,7 +16,6 @@ import CaruselC from "./CaruselC";
 
 const CamereDescription = () => {
   const sectionRef = useRef(null);
-  const introTextRef = useRef(null);
   const facilitiesRef = useRef(null);
   const roomTypesRef = useRef(null);
   const bathTextRef = useRef(null);
@@ -33,14 +32,6 @@ const CamereDescription = () => {
           end: "bottom center",
           toggleActions: "play none none reverse",
         },
-      });
-
-      // Intro text animation from bottom
-      tl.from(introTextRef.current, {
-        y: 100,
-        opacity: 0,
-        duration: 1,
-        ease: "power3.out",
       });
 
       // Facilities section from left
@@ -102,7 +93,7 @@ const CamereDescription = () => {
     >
       <div className="max-w-6xl mx-auto">
         <div className="space-y-8 font-fauna-one text-lg md:text-xl leading-relaxed text-center md:text-left">
-          <p ref={introTextRef} className="text-2xl pb-6">
+          <p className="text-2xl pb-6">
             Va invitam sa descoperiti camerele noastre elegante, create cu
             dragoste si pasiune. Fiecare camera are personalitatea ei unica si
             este dotata cu tot confortul modern de care aveti nevoie pentru o
