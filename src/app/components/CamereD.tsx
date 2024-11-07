@@ -134,7 +134,8 @@ const CamereDescription = () => {
               <ul className="space-y-2">
                 <li className="flex items-center gap-2 justify-center md:justify-start">
                   <MdHotel className="text-xl" />
-                  Camera Dubla <br></br> perfecta pentru cupluri
+                  Camera Dubla - 180RON <br></br> pat matrimonial sau twin (la
+                  alegere)
                 </li>
                 <li className="flex items-center gap-2 justify-center md:justify-start">
                   <MdFamilyRestroom className="text-xl" />
@@ -142,7 +143,8 @@ const CamereDescription = () => {
                 </li>
                 <li className="flex items-center gap-2 justify-center md:justify-start">
                   <MdPerson className="text-xl" />
-                  Camera Single <br></br> confort pentru calatorii individuali
+                  Camera Single - 150RON <br></br> confort pentru calatorii
+                  individuali
                 </li>
               </ul>
             </div>

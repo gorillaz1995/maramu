@@ -38,7 +38,7 @@ export default function Food({
     },
   ],
   heading = "Descopera gusturile autentice ale Maramuresului",
-  paragraph = "Bucura-te de preparate traditionale pregatite cu grija, folosind ingrediente proaspete din inima muntilor. Carnea de cea mai buna calitate, crescuta natural, si legumele alese transforma fiecare masa.",
+  paragraph = "Bucurati-va de preparate traditionale, atent pregatite cu ingrediente proaspete din inima muntilor. Desi oaspetii nostri prefera adesea sa manance in diverse destinatii turistice in timpul zilei, la restaurantul nostru puteti savura un Mic Dejun la 40 RON si un Pranz/Cina la 60 RON.",
   isAlternating = false,
   backgroundColor = "#013220",
   textColor = "#D4AF37",
@@ -114,7 +114,7 @@ export default function Food({
             {heading}
           </h2>
           <p
-            className="text-lg md:text-lg lg:text-lg font-fauna-one leading-relaxed"
+            className="text-base md:text-base lg:text-base font-fauna-one leading-relaxed"
             style={{
               color: accentColor,
             }}
