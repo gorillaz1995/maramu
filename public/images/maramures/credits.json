@@ -1,0 +1,611 @@
+{
+  "license": "Unsplash License (https://unsplash.com/license)",
+  "license_note": "Free to use under the Unsplash License. Attribution is appreciated but not required. Do not use Unsplash+ / premium images. When hotlinking, use the images.unsplash.com URLs below rather than unsplash.com page URLs.",
+  "folder": "images/maramures",
+  "count": 20,
+  "images": [
+    {
+      "filename": "maramures-wooden-gate-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-painting-of-a-wooden-structure-in-a-field-YHl4dw96nhc",
+      "description": "Traditional carved Maramureș wooden gate (poartă) with a shingle roof, in a village meadow.",
+      "source_url": "https://images.unsplash.com/photo-1727409492345-3c19a2ef2e2c?w=1600&q=80&fm=jpg",
+      "unsplash_id": "YHl4dw96nhc",
+      "license": "Unsplash License",
+      "original_width": 6000,
+      "original_height": 4000,
+      "files": {
+        "maramures-wooden-gate-1-828.webp": {
+          "width": 828,
+          "height": 552,
+          "bytes": 138594
+        },
+        "maramures-wooden-gate-1-1600.webp": {
+          "width": 1600,
+          "height": 1066,
+          "bytes": 351068
+        },
+        "maramures-wooden-gate-1-1600.jpg": {
+          "width": 1600,
+          "height": 1066,
+          "bytes": 511938
+        },
+        "maramures-wooden-gate-1-portrait-828.webp": {
+          "width": 828,
+          "height": 1035,
+          "bytes": 149120,
+          "crop": "4:5"
+        }
+      }
+    },
+    {
+      "filename": "maramures-traditional-house-garden-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-house-with-a-thatched-roof-surrounded-by-flowers-2dLjE1wfB9M",
+      "description": "A large traditional house with a steep shingle roof and a colorful flower garden in front.",
+      "source_url": "https://images.unsplash.com/photo-1727409490137-e44fcf2e0038?w=1600&q=80&fm=jpg",
+      "unsplash_id": "2dLjE1wfB9M",
+      "license": "Unsplash License",
+      "original_width": 3852,
+      "original_height": 5778,
+      "files": {
+        "maramures-traditional-house-garden-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 148694,
+          "quality": 45
+        },
+        "maramures-traditional-house-garden-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 656466
+        },
+        "maramures-traditional-house-garden-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 1068191
+        },
+        "maramures-traditional-house-garden-1-portrait-828.webp": {
+          "width": 828,
+          "height": 1035,
+          "bytes": 144504,
+          "crop": "4:5"
+        }
+      }
+    },
+    {
+      "filename": "maramures-barsana-monastery-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-church-with-two-steeples-and-a-clock-tower-WXg7NYGlDwk",
+      "description": "Twin wooden steeples of Bârsana Monastery, with yellow flowers in the foreground.",
+      "source_url": "https://images.unsplash.com/photo-1727409491623-37dc2662cd37?w=1600&q=80&fm=jpg",
+      "unsplash_id": "WXg7NYGlDwk",
+      "license": "Unsplash License",
+      "original_width": 4000,
+      "original_height": 6000,
+      "files": {
+        "maramures-barsana-monastery-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 105212
+        },
+        "maramures-barsana-monastery-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 336258
+        },
+        "maramures-barsana-monastery-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 538265
+        },
+        "maramures-barsana-monastery-1-portrait-828.webp": {
+          "width": 828,
+          "height": 1035,
+          "bytes": 97194,
+          "crop": "4:5"
+        }
+      }
+    },
+    {
+      "filename": "maramures-mocanita-steam-train-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-train-traveling-through-a-lush-green-forest-7NGYKxlBGf8",
+      "description": "The Mocănița steam locomotive coming down the forested Vaser Valley line.",
+      "source_url": "https://images.unsplash.com/photo-1727409491394-7e90350a5ff9?w=1600&q=80&fm=jpg",
+      "unsplash_id": "7NGYKxlBGf8",
+      "license": "Unsplash License",
+      "original_width": 3865,
+      "original_height": 5798,
+      "files": {
+        "maramures-mocanita-steam-train-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 120098
+        },
+        "maramures-mocanita-steam-train-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 290368
+        },
+        "maramures-mocanita-steam-train-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 600762
+        }
+      }
+    },
+    {
+      "filename": "maramures-haystacks-summer-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-grassy-field-with-hay-bales-in-the-foreground-f5AVAMFX188",
+      "description": "Traditional conical haystacks (clăi de fân) on a green hillside under a wide summer sky.",
+      "source_url": "https://images.unsplash.com/photo-1727409490853-9403be5259d6?w=1600&q=80&fm=jpg",
+      "unsplash_id": "f5AVAMFX188",
+      "license": "Unsplash License",
+      "original_width": 3460,
+      "original_height": 5190,
+      "files": {
+        "maramures-haystacks-summer-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 106962
+        },
+        "maramures-haystacks-summer-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 340302
+        },
+        "maramures-haystacks-summer-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 595606
+        }
+      }
+    },
+    {
+      "filename": "maramures-sapanta-merry-cemetery-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-group-of-colorfully-decorated-buildings-with-a-fence-in-front-of-them-ixCk-AQlPrc",
+      "description": "Hand-painted wooden crosses at the Merry Cemetery (Cimitirul Vesel) in Săpânța.",
+      "source_url": "https://images.unsplash.com/photo-1727409491471-43d7f1683321?w=1600&q=80&fm=jpg",
+      "unsplash_id": "ixCk-AQlPrc",
+      "license": "Unsplash License",
+      "original_width": 3558,
+      "original_height": 4744,
+      "files": {
+        "maramures-sapanta-merry-cemetery-1-828.webp": {
+          "width": 828,
+          "height": 1104,
+          "bytes": 135216
+        },
+        "maramures-sapanta-merry-cemetery-1-1600.webp": {
+          "width": 1600,
+          "height": 2134,
+          "bytes": 316496
+        },
+        "maramures-sapanta-merry-cemetery-1-1600.jpg": {
+          "width": 1600,
+          "height": 2134,
+          "bytes": 638321
+        }
+      }
+    },
+    {
+      "filename": "maramures-wooden-church-steeple-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-church-steeple-with-a-cross-on-top-of-it-rvXnNJtQYco",
+      "description": "Tall shingle steeple of a Maramureș wooden church, with forested mountains behind it.",
+      "source_url": "https://images.unsplash.com/photo-1727409491693-e80485190fe7?w=1600&q=80&fm=jpg",
+      "unsplash_id": "rvXnNJtQYco",
+      "license": "Unsplash License",
+      "original_width": 4000,
+      "original_height": 6000,
+      "files": {
+        "maramures-wooden-church-steeple-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 85370
+        },
+        "maramures-wooden-church-steeple-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 224582
+        },
+        "maramures-wooden-church-steeple-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 460624
+        }
+      }
+    },
+    {
+      "filename": "maramures-church-through-gate-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-view-of-a-building-through-a-window-3KeX-H-0G5c",
+      "description": "A wooden church steeple framed by a carved log gateway and red flowers.",
+      "source_url": "https://images.unsplash.com/photo-1727409492354-dc440e11eb7e?w=1600&q=80&fm=jpg",
+      "unsplash_id": "3KeX-H-0G5c",
+      "license": "Unsplash License",
+      "original_width": 3882,
+      "original_height": 5823,
+      "files": {
+        "maramures-church-through-gate-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 65124
+        },
+        "maramures-church-through-gate-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 174156
+        },
+        "maramures-church-through-gate-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 433677
+        }
+      }
+    },
+    {
+      "filename": "maramures-village-house-vines-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-house-covered-in-vines-and-flowers-on-a-sunny-day-qaz1-f3D4O8",
+      "description": "A traditional village house with a shingle roof and grapevines over the doorway.",
+      "source_url": "https://images.unsplash.com/photo-1727409494059-fab0acdfa0f3?w=1600&q=80&fm=jpg",
+      "unsplash_id": "qaz1-f3D4O8",
+      "license": "Unsplash License",
+      "original_width": 4000,
+      "original_height": 6000,
+      "files": {
+        "maramures-village-house-vines-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 134784
+        },
+        "maramures-village-house-vines-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 336612
+        },
+        "maramures-village-house-vines-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 710730
+        }
+      }
+    },
+    {
+      "filename": "maramures-wooden-house-well-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-couple-of-wooden-buildings-sitting-on-top-of-a-lush-green-field-F1scbpQ30Wo",
+      "description": "Wooden village house, shingle well, and a herb-drying shed in a grassy courtyard.",
+      "source_url": "https://images.unsplash.com/photo-1727409493820-fdb15c908de0?w=1600&q=80&fm=jpg",
+      "unsplash_id": "F1scbpQ30Wo",
+      "license": "Unsplash License",
+      "original_width": 4000,
+      "original_height": 6000,
+      "files": {
+        "maramures-wooden-house-well-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 145800
+        },
+        "maramures-wooden-house-well-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 460456
+        },
+        "maramures-wooden-house-well-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 882437
+        }
+      }
+    },
+    {
+      "filename": "maramures-sheep-wooden-church-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-sheep-is-laying-down-in-a-field-OxwwemyTCYw",
+      "description": "Sheep grazing beside a wooden church in a fenced meadow.",
+      "source_url": "https://images.unsplash.com/photo-1727409491844-c26953a8489d?w=1600&q=80&fm=jpg",
+      "unsplash_id": "OxwwemyTCYw",
+      "license": "Unsplash License",
+      "original_width": 3526,
+      "original_height": 5289,
+      "files": {
+        "maramures-sheep-wooden-church-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 144568
+        },
+        "maramures-sheep-wooden-church-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 423992
+        },
+        "maramures-sheep-wooden-church-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 798983
+        }
+      }
+    },
+    {
+      "filename": "maramures-traditional-porch-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-porch-with-a-table-and-chairs-on-it-xuNCa2hpPUk",
+      "description": "Carved wooden porch (prispa) looking out over the hills, with a linen-covered table.",
+      "source_url": "https://images.unsplash.com/photo-1727409492346-8c4726f69392?w=1600&q=80&fm=jpg",
+      "unsplash_id": "xuNCa2hpPUk",
+      "license": "Unsplash License",
+      "original_width": 4000,
+      "original_height": 6000,
+      "files": {
+        "maramures-traditional-porch-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 105746
+        },
+        "maramures-traditional-porch-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 277946
+        },
+        "maramures-traditional-porch-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 632857
+        }
+      }
+    },
+    {
+      "filename": "maramures-traditional-interior-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-table-and-chairs-in-front-of-a-window-1PFLg8pk0Z8",
+      "description": "Traditional wooden-room interior with an icon, embroidered ștergar, and woven tablecloth.",
+      "source_url": "https://images.unsplash.com/photo-1727409495928-208e88fcee8f?w=1600&q=80&fm=jpg",
+      "unsplash_id": "1PFLg8pk0Z8",
+      "license": "Unsplash License",
+      "original_width": 4000,
+      "original_height": 6000,
+      "files": {
+        "maramures-traditional-interior-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 137244
+        },
+        "maramures-traditional-interior-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 725744
+        },
+        "maramures-traditional-interior-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 913008
+        }
+      }
+    },
+    {
+      "filename": "maramures-mocanita-from-carriage-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-train-traveling-through-a-lush-green-countryside-yWRF7AZIriQ",
+      "description": "The Mocănița steam train seen through the wooden window of a carriage.",
+      "source_url": "https://images.unsplash.com/photo-1727409489545-7683ff34cacc?w=1600&q=80&fm=jpg",
+      "unsplash_id": "yWRF7AZIriQ",
+      "license": "Unsplash License",
+      "original_width": 3224,
+      "original_height": 4513,
+      "files": {
+        "maramures-mocanita-from-carriage-1-828.webp": {
+          "width": 828,
+          "height": 1159,
+          "bytes": 130140
+        },
+        "maramures-mocanita-from-carriage-1-1600.webp": {
+          "width": 1600,
+          "height": 2240,
+          "bytes": 350170
+        },
+        "maramures-mocanita-from-carriage-1-1600.jpg": {
+          "width": 1600,
+          "height": 2240,
+          "bytes": 675612
+        }
+      }
+    },
+    {
+      "filename": "maramures-mountain-fir-trees-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-view-of-a-mountain-through-some-trees-pokcAKaQdrc",
+      "description": "A Maramureș mountain slope framed by dark fir trees.",
+      "source_url": "https://images.unsplash.com/photo-1727409492418-151e8fda0623?w=1600&q=80&fm=jpg",
+      "unsplash_id": "pokcAKaQdrc",
+      "license": "Unsplash License",
+      "original_width": 3705,
+      "original_height": 5558,
+      "files": {
+        "maramures-mountain-fir-trees-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 91906
+        },
+        "maramures-mountain-fir-trees-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 238394
+        },
+        "maramures-mountain-fir-trees-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 569480
+        }
+      }
+    },
+    {
+      "filename": "maramures-mountain-flowers-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-view-of-a-mountain-range-with-flowers-in-the-foreground-X25qDNU_HzQ",
+      "description": "Forested mountain peak with out-of-focus garden flowers in the foreground.",
+      "source_url": "https://images.unsplash.com/photo-1727409494899-1992268210c4?w=1600&q=80&fm=jpg",
+      "unsplash_id": "X25qDNU_HzQ",
+      "license": "Unsplash License",
+      "original_width": 4000,
+      "original_height": 6000,
+      "files": {
+        "maramures-mountain-flowers-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 67012
+        },
+        "maramures-mountain-flowers-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 257554
+        },
+        "maramures-mountain-flowers-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 595042
+        }
+      }
+    },
+    {
+      "filename": "maramures-haystacks-winter-1",
+      "photographer": "Theodor Vasile",
+      "photographer_url": "https://unsplash.com/@theodorrr",
+      "unsplash_page": "https://unsplash.com/photos/snow-covered-trees-and-mountain-during-daytime-fStdrho4TWc",
+      "description": "Three frost-covered haystacks in a snowy Maramureș field (same winter series as a photo tagged Maramureș).",
+      "source_url": "https://images.unsplash.com/photo-1579350535642-5cdfc01d557d?w=1600&q=80&fm=jpg",
+      "unsplash_id": "fStdrho4TWc",
+      "license": "Unsplash License",
+      "original_width": 4000,
+      "original_height": 6000,
+      "files": {
+        "maramures-haystacks-winter-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 97286
+        },
+        "maramures-haystacks-winter-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 370948
+        },
+        "maramures-haystacks-winter-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 506995
+        }
+      }
+    },
+    {
+      "filename": "maramures-folk-costume-1",
+      "photographer": "Teslariu Mihai",
+      "photographer_url": "https://unsplash.com/@mihaiteslariu0",
+      "unsplash_page": "https://unsplash.com/photos/a-woman-in-a-pirate-costume-leaning-against-a-wooden-structure-rR0yh3V_T0M",
+      "description": "Woman in traditional Maramureș folk costume (embroidered blouse, sheepskin vest, and floral headscarf) by a wooden house.",
+      "source_url": "https://images.unsplash.com/photo-1701456031505-370c542910c8?w=1600&q=80&fm=jpg",
+      "unsplash_id": "rR0yh3V_T0M",
+      "license": "Unsplash License",
+      "original_width": null,
+      "original_height": null,
+      "files": {
+        "maramures-folk-costume-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 51814
+        },
+        "maramures-folk-costume-1-1600.webp": {
+          "width": 1600,
+          "height": 2399,
+          "bytes": 146158
+        },
+        "maramures-folk-costume-1-1600.jpg": {
+          "width": 1600,
+          "height": 2399,
+          "bytes": 361604
+        }
+      },
+      "source_width_downloaded": 2000,
+      "source_height_downloaded": 2999
+    },
+    {
+      "filename": "maramures-winter-frosted-road-1",
+      "photographer": "Theodor Vasile",
+      "photographer_url": "https://unsplash.com/@theodorrr",
+      "unsplash_page": "https://unsplash.com/photos/bare-trees-under-blue-sky-during-daytime-NSNZkHwqfP8",
+      "description": "A snow-covered country road lined with frost-covered trees (same Maramureș winter series).",
+      "source_url": "https://images.unsplash.com/photo-1579350535960-6f72968d6204?w=1600&q=80&fm=jpg",
+      "unsplash_id": "NSNZkHwqfP8",
+      "license": "Unsplash License",
+      "original_width": 4000,
+      "original_height": 6000,
+      "files": {
+        "maramures-winter-frosted-road-1-828.webp": {
+          "width": 768,
+          "height": 1152,
+          "bytes": 148338,
+          "quality": 42,
+          "note": "Slightly narrower than 828px to stay under 150KB; fine frost detail is hard to compress."
+        },
+        "maramures-winter-frosted-road-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 968220
+        },
+        "maramures-winter-frosted-road-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 1159232
+        }
+      }
+    },
+    {
+      "filename": "maramures-wooden-pavilion-mountains-1",
+      "photographer": "Adrian Botica",
+      "photographer_url": "https://unsplash.com/@adi_botica",
+      "unsplash_page": "https://unsplash.com/photos/a-wooden-gazebo-with-a-steeple-on-top-of-it-JnBdoRk1kFo",
+      "description": "A shingle-roofed wooden pavilion or bell tower set against forested mountains.",
+      "source_url": "https://images.unsplash.com/photo-1727409493589-bfc79aa6356d?w=1600&q=80&fm=jpg",
+      "unsplash_id": "JnBdoRk1kFo",
+      "license": "Unsplash License",
+      "original_width": 3910,
+      "original_height": 5865,
+      "files": {
+        "maramures-wooden-pavilion-mountains-1-828.webp": {
+          "width": 828,
+          "height": 1242,
+          "bytes": 144394
+        },
+        "maramures-wooden-pavilion-mountains-1-1600.webp": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 471160
+        },
+        "maramures-wooden-pavilion-mountains-1-1600.jpg": {
+          "width": 1600,
+          "height": 2400,
+          "bytes": 834455
+        }
+      }
+    }
+  ]
+}

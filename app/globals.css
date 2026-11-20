@@ -1,0 +1,257 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #ede7db;
+  --color-cream-2: #e3dbca;
+  --color-paper: #f6f2ea;
+  --color-ink: #222c26;
+  --color-forest: #12402b;
+  --color-forest-deep: #013220;
+  --color-sage: #5f7f4c;
+  --color-clay: #9a7428;
+  --color-clay-dark: #7c5d1f;
+  --color-gold: #d4af37;
+  --color-yellow: #f7d917;
+
+  --font-display: var(--font-fraunces), "Times New Roman", serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-script: var(--font-script-face), cursive;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --header-h: 4.5rem;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: var(--color-clay);
+    color: var(--color-paper);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-clay);
+    outline-offset: 3px;
+  }
+
+  img,
+  video {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis:not(.lenis-autoToggle).lenis-stopped {
+  overflow: clip;
+}
+.lenis [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+@layer components {
+  .container-x {
+    width: 100%;
+    max-width: 88rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .container-x {
+      padding-inline: 2.5rem;
+    }
+  }
+
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-sage);
+  }
+
+  .display {
+    font-family: var(--font-display);
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    line-height: 0.98;
+    font-variation-settings: "opsz" 144, "SOFT" 30;
+  }
+
+  .script {
+    font-family: var(--font-script);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1;
+  }
+
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    color: color-mix(in oklab, var(--color-ink) 82%, transparent);
+  }
+  @media (min-width: 768px) {
+    .lead {
+      font-size: 1.125rem;
+    }
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.875rem;
+    padding: 0.7rem 1.4rem;
+    border-radius: 0.75rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    line-height: 1;
+    transition:
+      background-color 0.25s ease,
+      color 0.25s ease,
+      border-color 0.25s ease,
+      transform 0.2s ease;
+  }
+  .btn:active {
+    transform: scale(0.97);
+  }
+  .btn-clay {
+    background: var(--color-clay);
+    color: var(--color-paper);
+  }
+  .btn-clay:hover {
+    background: var(--color-clay-dark);
+  }
+  .btn-forest {
+    background: var(--color-forest);
+    color: var(--color-paper);
+  }
+  .btn-forest:hover {
+    background: var(--color-forest-deep);
+  }
+  .btn-outline {
+    border: 1px solid color-mix(in oklab, currentColor 35%, transparent);
+  }
+  .btn-outline:hover {
+    border-color: currentColor;
+  }
+  .btn-ghost {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    padding-inline: 0.75rem;
+  }
+
+  .link-underline {
+    background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat;
+    transition: background-size 0.5s var(--ease-out-expo);
+  }
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
+
+  .img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Prose for legal pages */
+  .prose-legal {
+    max-width: 46rem;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: color-mix(in oklab, var(--color-ink) 85%, transparent);
+  }
+  .prose-legal h2 {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: 1.85rem;
+    line-height: 1.15;
+    color: var(--color-ink);
+    margin: 3rem 0 1rem;
+  }
+  .prose-legal h3 {
+    font-weight: 600;
+    color: var(--color-ink);
+    margin: 1.75rem 0 0.5rem;
+  }
+  .prose-legal p,
+  .prose-legal ul,
+  .prose-legal table {
+    margin-bottom: 1rem;
+  }
+  .prose-legal ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+  }
+  .prose-legal li + li {
+    margin-top: 0.35rem;
+  }
+  .prose-legal a {
+    color: var(--color-clay);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .prose-legal table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  .prose-legal th,
+  .prose-legal td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.6rem 0.75rem 0.6rem 0;
+    border-bottom: 1px solid color-mix(in oklab, var(--color-ink) 12%, transparent);
+  }
+  .prose-legal th {
+    font-weight: 600;
+    color: var(--color-ink);
+  }
+}
+
+/* Elements animated by GSAP start hidden only when JS + motion are available,
+   so content stays visible without JS or with reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+  .js [data-reveal] {
+    visibility: hidden;
+  }
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
